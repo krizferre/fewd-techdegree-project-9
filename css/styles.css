@@ -535,6 +535,7 @@ main {
   right: 0;
   font-size: .9em;
   font-weight: 300;
+  text-transform: capitalize;
 }
 
 .autocomplete-items div {

@@ -1,3 +1,6 @@
+// these users will be used in the Search for User functionality
+const users = [];
+
 const url = "https://randomuser.me/api/";
 const data = {
   results: 5,
@@ -16,6 +19,10 @@ const success = function(response) {
 
   let liHtml = ``;
   $.each(response.results, function(i, item) {
+    
+    // these users will be used in the Search for User functionality
+    users.push(`${item.name.first} ${item.name.last}`);
+
     // get details from index 1 onwards
     if (i) {
 
