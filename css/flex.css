@@ -1,0 +1,40 @@
+/* ===============================================================
+ * Flex Styles
+ * ===============================================================
+ */
+
+.header-wrapper,
+.profile-wrapper,
+.nav-wrapper,
+.search-group,
+.traffic-link-wrapper,
+.twitter-wrapper,
+.facebook-wrapper,
+.google-wrapper,
+.new-members-wrapper li,
+.recent-activity-wrapper li,
+.settings-wrapper .email,
+.settings-wrapper .profile,
+.message-user-wrapper > form {
+  display: flex;
+  align-items: center;
+}
+
+.nav-wrapper,
+.traffic-link-wrapper {
+  justify-content: space-evenly;
+}
+
+.message-user-wrapper > form {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.app-text,
+.search-group > input {
+  margin-right: auto;
+}
+
+.recent-activity-wrapper a {
+  margin-left: auto;
+}
