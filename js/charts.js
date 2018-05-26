@@ -177,8 +177,8 @@ $(document).on('DOMContentLoaded', function() {
       legend: {
         position: 'right',
         labels: {
-          boxWidth: 20,
-          usePointStyle: true
+          boxWidth: 15,
+          // usePointStyle: true
         }
       }
     }

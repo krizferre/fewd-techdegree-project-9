@@ -23,6 +23,10 @@
     padding: 1.5em;
   }
 
+  .traffic-wrapper {
+    padding-top: 0;
+  }
+
   .notif-content {
     min-width: 550px;
     transform: translateY(3px) translateX(20px);
@@ -72,11 +76,17 @@
     margin-left: 1em;
   }
 
-/*
-* ===============================================================
-* Flex Styles
-* ===============================================================
-*/
+  .traffic-text-wrapper {
+    display: flex;
+    margin-bottom: 0;
+    align-items: center;
+  }
+
+  .traffic-text-wrapper > h4 {
+    margin-right: auto;
+    margin-bottom: 0;
+    height: initial;
+  }
 
   .social-stats-inner-wrapper {
     display: flex;
