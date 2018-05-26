@@ -137,6 +137,16 @@ main {
   width: 100%;
 }
 
+.search-group > button {
+  border: 0;
+  padding: 0;
+  background: none;
+}
+
+.search-group > button:focus {
+  outline: none;
+}
+
 #search-user,
 #message-user,
 #timezone {
