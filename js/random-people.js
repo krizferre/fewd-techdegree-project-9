@@ -27,9 +27,9 @@ const success = function(response) {
     if (i) {
 
       // for New Members details
-      const year = item.registered.slice(2, 4);
-      const month = item.registered.slice(5, 7);
-      const day = item.registered.slice(8, 10);
+      const year = item.registered.date.slice(2, 4);
+      const month = item.registered.date.slice(5, 7);
+      const day = item.registered.date.slice(8, 10);
       const registered = `${month}/${day}/${year}`;
 
       liHtml += `
